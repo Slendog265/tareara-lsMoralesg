@@ -11,13 +11,15 @@ public static void sdAsig() {
 	}
 	
 	public static void SdGroups() {
+		L.showData2();
 		
 	}
 	
 	public static void sdProf() {
-		
+		L.ShowData3();
 	}
 	public static void sdStud() {
+		L,ShowData4();
 		
 	}
 }

@@ -6,7 +6,7 @@ import java.util.UUID;
 
 public class Groups {
 	
-	private UUID ID;
+	private String ID;
 	private String groupName;
 	private List<Student> students;
 	
@@ -14,19 +14,19 @@ public class Groups {
 		students = new ArrayList<Student>();
 	}
 
-	public Groups(UUID iD, String groupName, List<Student> students) {
+	public Groups(String iD, String groupName, List<Student> students) {
 		super();
 		ID = iD;
 		this.groupName = groupName;
 		this.students = students;
 	}
 
-	public UUID getID() {
+	public String getID() {
 		return ID;
 	}
 
-	public void setID(UUID iD) {
-		ID = iD;
+	public void setID(String rIS) {
+		ID = rIS;
 	}
 
 	public String getGroupName() {

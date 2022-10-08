@@ -18,7 +18,7 @@ public final class Data {
 	}
 	
 	public static void addgroups() {
-	
+	L.addgroups(g);
 	}
 	
 	public static void catchgroups() {

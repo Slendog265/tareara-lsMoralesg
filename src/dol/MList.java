@@ -107,4 +107,27 @@ public class MList {
     	}
     	
     }
+    
+public void Selec1() {
+    	
+    	System.out.println("Seleccione una asignatura");
+    	Short opc;
+    	opc = entry.nextShort();
+    	switch(opc) {
+    	case 1:
+    		Stud.get(0);
+        	break;
+    	case 2:
+        	Stud.get(1);
+        	break;
+    	case 3: 
+        	Stud.get(2);
+        	break;
+        	default:
+        		break;
+        	
+        	
+    	}
+    	
+    }
 }
